@@ -28,6 +28,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BASE_BRANCH: main
+          BASE_BRANCH: dev
           BRANCH: gh-pages
           FOLDER: dist/spa
